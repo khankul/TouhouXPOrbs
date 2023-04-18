@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "io.github.khankul.touhou_xp_orbs.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [],
+	"client": [
+    "ExperienceOrbEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

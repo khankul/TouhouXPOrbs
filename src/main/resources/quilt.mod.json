@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.khankul",
+		"id": "touhou_xp_orbs",
+		"version": "${version}",
+		"metadata": {
+			"name": "Touhou XP Orbs",
+			"description": "Turns XP orbs into Touhou power points",
+			"contributors": {
+				"khankul": "Author"
+			},
+			"contact": {
+				"issues": "https://github.com/khankul/touhou-xp-orbs/issues",
+				"sources": "https://github.com/khankul/touhou-xp-orbs"
+			},
+			"icon": "assets/touhou_xp_orbs/icon.png",
+			"license": "MIT"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "io.github.khankul.touhou_xp_orbs.TouhouXpOrbsMod"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.18.3-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=5.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.3"
+			}
+		]
+	},
+	"mixin": "sandbox.mixins.json"
+}
