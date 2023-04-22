@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# khankul's Touhou XP Orbs
 
-## Setup
+Exactly what it says on the tin!  
+Makes your precious experience orbs look and sound just like the authentic Touhou power points.
+Touhou score points and not-overriding Vanilla XP ding soon.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Requirements:
+- Minecraft
+- Quilt or Fabric
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Sounds are from Touhou Project games, all rights belong to their holders.
