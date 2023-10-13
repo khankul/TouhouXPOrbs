@@ -1,4 +1,4 @@
-package io.github.khankul.touhouxporbs.mixin;
+package khankul.touhouxporbs.mixin;
 
 import net.minecraft.client.render.entity.ExperienceOrbEntityRenderer;
 import org.spongepowered.asm.mixin.Mixin;
