@@ -12,7 +12,7 @@
     "sources": "https://github.com/khankul/touhou-xp-orbs"
   },
 
-  "license": "MIT",
+  "license": "CC0-1.0",
   "icon": "assets/touhouxporbs/icon.png",
 
   "environment": "*",
