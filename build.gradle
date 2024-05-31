@@ -33,11 +33,23 @@ base {
 	archivesName = project.archives_base_name
 }
 
-processResources {
-	inputs.property "version", project.version
+//processResources {
+//	inputs.property "version", project.version
+//
+//	filesMatching("fabric.mod.json") {
+//		expand "version": project.version
+//	}
+//}
 
+processResources {
+	Map<String, String> properties = Map.of(
+			"version", version,
+			"minecraft_version", minecraft_version,
+			"loader_version", loader_version
+	) as Map<String, String>
+	inputs.properties(properties)
 	filesMatching("fabric.mod.json") {
-		expand "version": project.version
+		expand properties
 	}
 }
 
