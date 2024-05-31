@@ -8,10 +8,9 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
 @Mixin(ExperienceOrbEntityRenderer.class)
 public class ExperienceOrbEntityRendererMixin {
-
 	@ModifyArgs(method = "vertex", at = @At(value = "INVOKE",
 			target = "Lnet/minecraft/client/render/VertexConsumer;color(IIII)Lnet/minecraft/client/render/VertexConsumer;"))
-	private static void touhouXpOrbsMod$fixColor(Args args) {
+	private static void vertex(Args args) {
 		args.setAll(255, 255, 255, 128);
 	}
 }
